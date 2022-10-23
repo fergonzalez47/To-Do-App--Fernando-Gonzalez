@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do App | Fernando Gonzalez</title>
+</head>
+<body>
+    <main>
+        <section class="list">
+            <ul id="RenderList"></ul>
+            <div class="options">
+                <button id="items-all">All</button>
+                <button id="items-completed">Completed</button>
+                <button id="items-active">Active</button>
+                <div id="Show-Items"></div>
+            </div>
+        </section>
+
+        <section class="inputTask">
+            <label class ="label-input" for='todo-input'>Enter the task below:
+                <input type='text' id ='todo-input'name='todo-input' autofocus placeholder='Type here'>
+                <button id="btn" class="btn-submit" type="button">+</button>
+            </label>
+        </section>
+
+    </main>
+
+    <script src="js/toDos.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,80 @@
+body {
+    font-size: 2em;
+    background: rgb(211,238,174);
+    background: radial-gradient(circle, rgba(211,238,174,1) 18%, rgba(148,219,233,1) 100%);
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1em;
+}
+
+
+li {
+    list-style: none;
+}
+
+li:hover, input[type="checkbox"] {
+    background-color: rgba(157, 83, 226, 0.26);
+    cursor: pointer;
+}
+
+
+.highlight {
+    background-color: brown;
+}
+
+.inputTask, .list {
+    border: 3px solid rgba(121, 37, 199, 0.639) ;
+    margin: 1em;
+}
+
+
+.lined {
+    text-decoration: line-through;
+    color: dimgrey;
+}
+
+.hidden {
+    display: none;
+}
+
+.removeItem {
+    display: inline-block;
+    
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+}
+
+.removeItem {
+    background-color: crimson;
+    float: right;
+    margin-right: 2em;
+}
+
+.btn-submit {
+    background-color:rgb(116, 200, 116);
+    width: 40px;
+    height: 25px;
+    border-radius: 33%;
+}
+.btn-submit:hover {
+    transition: 0.3s;
+    background-color:rgb(42, 140, 42);
+    width: 55px;
+    border-radius: 15%;
+}
+
+.label-input {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    margin: 1em;
+    
+    justify-items: center;
+}
+#todo-input {
+    margin: 1em 0;
+}
